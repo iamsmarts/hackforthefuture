@@ -12,6 +12,7 @@ function App() {
           <h1>Hack To The Future</h1>
         </div>
       </div>
+
       <div className="container-fluid content">
         <div className="row">
           <div className="content_info col align-self-center">
