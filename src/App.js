@@ -18,7 +18,7 @@ function App() {
           <div className="content_info col align-self-center">
             <h2>Hack To The Future</h2>
             <p>A Virtual Coding Bootcamp</p>
-            <p>July 27 - 30th</p>
+            <p className="date">July 27 - 30th</p>
           </div>
         </div>
         <div className="row">
@@ -30,8 +30,33 @@ function App() {
         <div className="row">
           <div className="content_email-collection col align-self-center">
             <p>Stay Up to Date on this Event</p>
+            <form>
+              <input type="email" placeholder="Please Enter Email" />
+              <button type="submit">submit</button>
+            </form>
           </div>
         </div>
+      </div>
+      <div className="container-fluid ">
+        <div className="row social-wrap">
+          <div className="col social align-self-end">
+            <a href="https://twitter.com" target="_blank">
+              <img src="./images/twt-icon.png" alt="" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="./images/ig-icon.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="rocket">
+        <img
+          src="./images/httf-logo.png"
+          alt="Hack To The Future Rocket Logo"
+        />
+      </div>
+      <div className="container-fluid footer">
+        <p>&copy; Copyright Hack To The Future 2020</p>
       </div>
     </div>
   );
