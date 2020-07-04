@@ -40,10 +40,18 @@ function App() {
       <div className="container-fluid ">
         <div className="row social-wrap">
           <div className="col social align-self-end">
-            <a href="https://twitter.com" target="_blank" rel="noopener">
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="./images/twt-icon.png" alt="" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="./images/ig-icon.png" alt="" />
             </a>
           </div>
