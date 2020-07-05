@@ -24,7 +24,13 @@ function App() {
         <div className="row">
           <div className="content_apply col align-self-center">
             <p>Student Applications Are Now Open</p>
-            <button>Apply Now</button>
+            <a
+              href="https://httf2020.typeform.com/to/Bmp1dvII"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Apply Now
+            </a>
           </div>
         </div>
         <div className="row">
