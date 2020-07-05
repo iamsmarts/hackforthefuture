@@ -69,14 +69,14 @@ function App() {
         <div className="row social-wrap">
           <div className="col social align-self-end">
             <a
-              href="https://twitter.com"
+              href="https://twitter.com/HackttFuture"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="./images/twt-icon.png" alt="" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/HackttFuture"
               target="_blank"
               rel="noopener noreferrer"
             >
