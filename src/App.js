@@ -17,13 +17,16 @@ function App() {
         <div className="row">
           <div className="content_info col align-self-center">
             <h2>Hack To The Future</h2>
-            <p>A Virtual Coding Bootcamp</p>
+            <p>
+              A pop-up virtual coding camp focus on introducing high school
+              students of color to programming and the world of tech
+            </p>
             <p className="date">July 27 - 30th</p>
           </div>
         </div>
         <div className="row">
           <div className="content_apply col align-self-center">
-            <p>Student Applications Are Now Open</p>
+            <p>Student Applications Are Due On July 15th</p>
             <a
               href="https://httf2020.typeform.com/to/Bmp1dvII"
               target="_blank"
@@ -43,7 +46,7 @@ function App() {
               name="mc-embedded-subscribe-form"
               className="validate"
               target="_blank"
-              novalidate
+              noValidate
             >
               <input
                 type="email"

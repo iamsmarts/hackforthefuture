@@ -34,7 +34,7 @@ body {
   background-image: url(./images/Backdrop_img_v2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
 }
 .main {
@@ -223,6 +223,9 @@ body {
   .header {
     .header_logo {
       width: 20%;
+      img {
+        display: none;
+      }
     }
     .header_title {
       display: none;
@@ -275,7 +278,7 @@ body {
       left: -25%;
     }
     100% {
-      top: 32%;
+      top: 0%;
       left: 2%;
     }
   }
