@@ -18,7 +18,7 @@ function App() {
           <div className="content_info col align-self-center">
             <h2>Hack To The Future</h2>
             <p>
-              A pop-up virtual coding camp focus on introducing high school
+              A pop-up virtual coding camp focused on introducing high school
               students of color to programming and the world of tech
             </p>
             <p className="date">July 27 - 30th</p>
