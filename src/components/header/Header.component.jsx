@@ -15,7 +15,7 @@ const Header = () => {
   };
   return (
     <div className="container-fluid header">
-      <div className="row">
+      <div className="row header-wrap">
         <div className="col header_title">
           <img
             src="./images/httf-logo-icon.png"
