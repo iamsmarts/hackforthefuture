@@ -1,0 +1,90 @@
+.volunteeHero-wrap {
+  background-image: url("/images/volunteer/volunteer-hero-bkg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  height: 420px;
+  .vHeroContent {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    .row {
+      text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.52);
+      color: #fff;
+      margin-top: 142px;
+      .vIllustration {
+        display: none;
+        text-align: center;
+        img {
+          margin: 0 auto;
+        }
+      }
+      .vHeroCopy {
+        text-align: center;
+        h1 {
+          font-size: 3.6rem;
+          font-weight: 400;
+          font-style: normal;
+          margin: 20px 0px;
+        }
+        p {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
+.vBrackets {
+  height: 209px;
+  max-width: 700px;
+  width: 100%;
+  margin: 40px auto;
+  background-image: url("/images/volunteer/lbracket.png"),
+    url("/images/volunteer/rbracket.png");
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+  .bracketsCopy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+    background: #fafcff;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    margin: 10px auto;
+    height: 90%;
+  }
+}
+.vBottomCopy {
+  max-width: 700px;
+  width: 100%;
+  margin: 40px auto;
+  min-height: 180px;
+  .bCopyImage {
+    // width: 30%;
+    flex-basis: 25%;
+    background-color: #c4c4c4;
+    margin-right: 5%;
+  }
+  .bCopy {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fafcff;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+  }
+}
+@media (min-width: 1025px) {
+  .volunteeHero-wrap {
+    .vHeroContent {
+      .row {
+        .vIllustration {
+          display: block;
+        }
+      }
+    }
+  }
+}

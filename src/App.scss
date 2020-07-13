@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;600&family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;600&family=Open+Sans:wght@400;600&family=Inconsolata&display=swap");
 
 $exo: "Exo", sans-serif;
 html {
   font-size: 62.5%;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-family: $exo;
   font-size: 3.2rem;
   font-weight: 600;
@@ -21,7 +22,102 @@ body {
   line-height: 1.5;
 }
 #root {
+  overflow: hidden;
 }
 .main {
   padding: 0px;
+  min-height: 900px;
+  position: relative;
+  padding-bottom: 100px;
+}
+.header {
+  a {
+    font-family: $exo;
+  }
+}
+.homeCopy,
+.partner,
+.partnersStatment {
+  font-family: $exo;
+}
+.emailFormWrap,
+.heroContent-title,
+.heroContent-title h2,
+.aboutTeam-wrap h3,
+.vHeroContent .row .vHeroCopy h1,
+.vHeroContent .row .vHeroCopy p,
+.partnersHeroContent p {
+  font-family: "Inconsolata", monospace;
+}
+.container-full {
+  padding: 0px 15px;
+}
+.heros {
+  height: 550px;
+  justify-content: center;
+  overflow: hidden;
+}
+.aboutCtas-wrap {
+  font-family: $exo;
+}
+.participateFooter {
+  h4 {
+    font-family: $exo;
+  }
+  p {
+    font-family: "Inconsolata", monospace;
+  }
+}
+.mobileNav {
+  font-family: $exo;
+  height: 0vh;
+  width: 100vw;
+  background: rgba(33, 53, 74, 0.99);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+  transition: all ease 300ms;
+  display: none;
+  &.show {
+    height: 100vh;
+    display: block;
+  }
+  .mobilenNav-header {
+    height: 80px;
+    .logo {
+      margin: 10px 15px;
+    }
+    .close {
+      text-align: right;
+      color: #fff;
+      p {
+        font-size: 6rem;
+        margin-right: 35px;
+      }
+    }
+  }
+  .mobileNav-links {
+    .row {
+      font-size: 1.8rem;
+      flex-direction: column;
+      height: 50vh;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      .col {
+        text-align: center;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1025px) {
+  .main {
+    min-height: 1300px;
+  }
 }
