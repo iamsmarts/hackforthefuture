@@ -1,12 +1,7 @@
-import React, { useEffect, useContext } from "react";
-import Context from "../../context";
+import React from "react";
 import EmailForm from "../../components/email-form/email-form.component";
 import "./home.styles.scss";
 const Home = () => {
-  const { state, dispatch } = useContext(Context);
-  useEffect(() => {
-    console.log("loaded", state);
-  });
   return (
     <div className="container-ful home">
       <div className="row homeHero-wrap heros">

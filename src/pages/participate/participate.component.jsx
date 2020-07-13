@@ -1,11 +1,7 @@
-import React, { useEffect, useContext } from "react";
-import Context from "../../context";
+import React from "react";
+
 import "./participate.styles.scss";
 const Participate = () => {
-  const { state, dispatch } = useContext(Context);
-  useEffect(() => {
-    console.log("loaded", state);
-  });
   return (
     <div className="container-fluid participate">
       <div className="row participateHero-wrap heros">

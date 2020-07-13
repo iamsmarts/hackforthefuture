@@ -1,12 +1,8 @@
-import React, { useEffect, useContext } from "react";
-import Context from "../../context";
+import React from "react";
+
 import EmailForm from "../../components/email-form/email-form.component";
 import "./partners.styles.scss";
 const Partners = () => {
-  const { state, dispatch } = useContext(Context);
-  useEffect(() => {
-    console.log("loaded", state);
-  });
   return (
     <div className="container-full partners">
       <div className="row partnersHero-wrap heros">

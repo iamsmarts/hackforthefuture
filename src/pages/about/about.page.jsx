@@ -1,12 +1,8 @@
-import React, { useEffect, useContext } from "react";
-import Context from "../../context";
+import React from "react";
+
 import TeamMember from "../../components/teamMember/teamMember.component";
 import "./about.styles.scss";
 const About = () => {
-  const { state, dispatch } = useContext(Context);
-  useEffect(() => {
-    console.log("loaded", state);
-  });
   let members = [
     { photo: "Alyssa_2.png", title: "Lorem ipsum dolor sit amet, consectetur" },
     {

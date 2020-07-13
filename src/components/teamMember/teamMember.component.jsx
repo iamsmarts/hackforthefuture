@@ -2,7 +2,6 @@ import React from "react";
 import "./teamMember.styles.scss";
 
 const TeamMember = ({ bkg, title }) => {
-  console.log(bkg);
   let memBkg = {
     backgroundImage: `url(./images/home/${bkg})`,
   };

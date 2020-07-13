@@ -18,7 +18,6 @@ function App() {
   const initialState = useContext(Context);
   const [state, dispatch] = useReducer(reducer, initialState);
   const mobileNavClick = () => {
-    console.log("clicked");
     dispatch({
       type: "SHOW_NAV",
       payload: !state.showNav,

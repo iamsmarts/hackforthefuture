@@ -1,11 +1,6 @@
-import React, { useEffect, useContext } from "react";
-import Context from "../../context";
+import React from "react";
 import "./volunteer.styles.scss";
 const Volunteer = () => {
-  const { state, dispatch } = useContext(Context);
-  useEffect(() => {
-    console.log("loaded", state);
-  });
   return (
     <div className="container-full volunteer">
       <div className="row volunteeHero-wrap heros">
