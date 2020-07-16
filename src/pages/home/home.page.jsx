@@ -38,20 +38,6 @@ const Home = () => {
         </div>
       </div>
       <EmailForm title="Stay up to date" />
-      <div className="row homePartners">
-        <div className="col">
-          <img src="./images/home/ellipse.png" alt="partner" />{" "}
-        </div>
-        <div className="col">
-          <img src="./images/home/ellipse.png" alt="partner" />
-        </div>
-        <div className="col">
-          <img src="./images/home/ellipse.png" alt="partner" />
-        </div>
-        <div className="col">
-          <img src="./images/home/ellipse.png" alt="partner" />
-        </div>
-      </div>
     </div>
   );
 };
