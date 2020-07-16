@@ -26,7 +26,10 @@ function App() {
         </div>
         <div className="row">
           <div className="content_apply col align-self-center">
-            <p>Student Applications Are Due On July 15th</p>
+            <p>
+              The Deadline for Student Applications Has Been Extended to July
+              17th
+            </p>
             <a
               href="https://httf2020.typeform.com/to/Bmp1dvII"
               target="_blank"
