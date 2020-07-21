@@ -1,6 +1,5 @@
 import React from "react";
 
-import EmailForm from "../../components/email-form/email-form.component";
 import "./partners.styles.scss";
 const Partners = () => {
   return (
@@ -26,16 +25,28 @@ const Partners = () => {
           </p>
         </div>
         <div className="col partner">
-          <img src="./images/partners/ct-partner-logo.png" />
+          <img
+            src="./images/partners/ct-partner-logo.png"
+            alt="Partners Logo"
+          />
         </div>
         <div className="col partner">
-          <img src="./images/partners/cs4-philly-partner-logo.png" />
+          <img
+            src="./images/partners/cs4-philly-partner-logo.png"
+            alt="Partners Logo"
+          />
         </div>
         <div className="col partner">
-          <img src="./images/partners/ed-partner-logo.png" />
+          <img
+            src="./images/partners/ed-partner-logo.png"
+            alt="Partners Logo"
+          />
         </div>
         <div className="col partner">
-          <img src="./images/partners/latinx-partner-logo.png" />
+          <img
+            src="./images/partners/latinx-partner-logo.png"
+            alt="Partners Logo"
+          />
         </div>
       </div>
       <div className="row partnersStatment-wrap">
