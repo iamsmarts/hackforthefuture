@@ -4,7 +4,6 @@ import TeamMember from "../../components/teamMember/teamMember.component";
 import TeamMembers from "../../team";
 import "./about.styles.scss";
 const About = () => {
-  console.log(TeamMembers);
   const team = TeamMembers.map((member, i) => {
     return (
       <TeamMember

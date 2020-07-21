@@ -1,21 +1,21 @@
 const TeamMembers = [
   {
-    photo: "Alyssa_2.png",
+    photo: "Aarai_Photo.png",
     name: "Aari Myers",
     title: "Curriculum Team",
   },
   {
-    photo: "Jordanne_2.png",
+    photo: "Amirah_Photo.png",
     name: "Amirah Chamble",
     title: `Student Experience / Design`,
   },
   {
-    photo: "Alyssa_2.png",
+    photo: "Bodhi_Photo.png",
     name: "Bodhi",
     title: "Chief Cuteness Officer",
   },
   {
-    photo: "Jordanne_2.png",
+    photo: "Christine_Photo.png",
     name: "Chris Berrios",
     title: "Curriculum Team",
   },
@@ -25,47 +25,47 @@ const TeamMembers = [
     title: "Curriculum Team",
   },
   {
-    photo: "Alyssa_2.png",
+    photo: "Eli_Photo.png",
     name: "Eli Boahen",
     title: "Student Experience / Design",
   },
   {
-    photo: "Jordanne_2.png",
+    photo: "Justin_Photo.png",
     name: "Justin Martinelli",
     title: "Student Experience Team",
   },
   {
-    photo: "Alyssa_2.png",
+    photo: "Kevin_Photo.png",
     name: "Kevin Nguyen",
     title: "Volunteer Experience Team",
   },
   {
-    photo: "Jordanne_2.png",
+    photo: "Malik_Photo.png",
     name: "Malik Graham",
     title: "Volunteer Experience Team",
   },
   {
-    photo: "Alyssa_2.png",
+    photo: "Marcus_M_Photo.png",
     name: "Marcus McLaughli",
     title: "Curriculum Team",
   },
   {
-    photo: "Jordanne_2.png",
+    photo: "Marcus_R_Photo.png",
     name: "Marcus Robinson",
     title: "Curriculum Team",
   },
   {
-    photo: "Alyssa_2.png",
+    photo: "Rudy_Photo.png",
     name: "Rudy Quevado",
     title: "Developer",
   },
   {
-    photo: "Jordanne_2.png",
+    photo: "Steve_Photo.png",
     name: "Steve Alfaro",
     title: "Partnerships",
   },
   {
-    photo: "Alyssa_2.png",
+    photo: "Wilfried_Photo.png",
     name: "Wilfried Hounyo",
     title: "Curriculum / Voluteer Experience Team",
   },

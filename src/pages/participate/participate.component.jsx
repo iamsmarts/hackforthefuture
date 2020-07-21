@@ -35,7 +35,7 @@ const Participate = () => {
       <div className="row participateRubric-wrap">
         <div className="rubric">
           <div className="rIcon">
-            <img src="./images/participate/alyssa.png" alt="" />
+            <img src="./images/participate/alyssa-update.png" alt="" />
           </div>
           <div className="rCopy">
             <h3>Just 4 Days</h3>
@@ -53,7 +53,7 @@ const Participate = () => {
 
         <div className="rubric">
           <div className="rIcon">
-            <img src="./images/participate/jordanne.png" alt="" />
+            <img src="./images/participate/jordanne-update.png" alt="" />
           </div>
           <div className="rCopy">
             <h3>Become Coder By Dinner Time (?)</h3>

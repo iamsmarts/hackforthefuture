@@ -3,7 +3,7 @@ import "./teamMember.styles.scss";
 
 const TeamMember = ({ bkg, name, title }) => {
   let memBkg = {
-    backgroundImage: `url(./images/home/${bkg})`,
+    backgroundImage: `url(./images/volunteer/volunteer-photos/${bkg})`,
   };
   return (
     <div className="col team-member">

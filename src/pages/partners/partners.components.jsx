@@ -76,7 +76,9 @@ const Partners = () => {
           If you are interested in supporting our program or partnering with us
           please email <br />
           <strong>
-            <a href="mailto:info@hactothefuture.org">info@hactothefuture.org</a>
+            <a href="mailto:info@hacktothefuture.org">
+              info@hacktothefuture.org
+            </a>
           </strong>
         </p>
       </div>

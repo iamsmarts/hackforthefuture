@@ -18,7 +18,7 @@ const Volunteer = () => {
                 rel="noopener noreferrer"
                 className="v-cta"
               >
-                <strong>Apply Now</strong>
+                <strong>Volunteer Now</strong>
               </a>
             </div>
           </div>
@@ -26,22 +26,33 @@ const Volunteer = () => {
       </div>
       <div className="row vBrackets">
         <div className="bracketsCopy">
-          <h3>We all started somewhere</h3>
+          <h3> We Need Your Help</h3>
           <p>
-            You saw programming and computer science and you pursued it! Now you
-            can use your coding skills to help create a new wave of coders,
-            innovators, and problem solvers.
+            {" "}
+            Covid-19 has changed everyone’s life and students are sitting idle
+            with limited opportunities. We thought it would be a great idea to
+            do something positive this summer by creating a pop-up virtual code
+            camp called Hack to the Future.
           </p>
-
           <p>
-            Video games, animated films, and even some music were made with code
-            by people who started out curious about technology, just like you.
-            By volunteering with Hack To The Future, you will be able to fan the
-            flame or even light the spark of students all across the country.
-            Covid-19 has changed everyone's life and has left many students
-            sitting idle with limited opportunities. We thought it would be a
-            great idea to do something positive this summer by creating a pop-up
-            virtual code camp, and we want you to be a part of it.
+            {" "}
+            Hack To The Future is a pop-up virtual code camp focused on
+            introducing high school students of color to coding. Our program
+            would not be possible without volunteers. If you are passionate
+            about programming and want to empower youth to be the creators of
+            the future please join us!{" "}
+          </p>
+          <p>
+            {" "}
+            The program will take place from August 10 - 13, 10am-1pm PST /
+            1pm-4pm EST each day. If you want to volunteer, complete this short{" "}
+            <strong>
+              <a href="https://forms.gle/NTX3qyFnMYif58hq9">survey</a> by July
+              29th.
+            </strong>{" "}
+            Once completed, we’ll send you some instructions to complete a quick
+            training assessment that will help us tailor a volunteer training
+            session leading up to Hack to the Future.
           </p>
         </div>
       </div>
@@ -63,7 +74,9 @@ const Volunteer = () => {
           <p>Have Questions?</p>
           <h4>
             Email us at{" "}
-            <a href="mailto:info@hactothefuture.org">info@hactothefuture.org</a>{" "}
+            <a href="mailto:info@hacktothefuture.org">
+              info@hacktothefuture.org
+            </a>{" "}
           </h4>
         </div>
       </div>

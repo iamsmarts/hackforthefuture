@@ -6,7 +6,7 @@ const Home = () => {
     <div className="container-ful home">
       <div className="row homeHero-wrap heros">
         <div className="col homeHero">
-          <h2>4 Day Coding Camp</h2>
+          <h2>Pop-up Virtual Code Camp</h2>
           <p>August 10th - August 13th</p>
           <p>Applications Are Open!</p>
           <a
