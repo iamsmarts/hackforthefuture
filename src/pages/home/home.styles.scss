@@ -49,8 +49,12 @@
     text-align: center;
     font-size: 1.8rem;
     line-height: 3rem;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    width: 100%;
     p {
-      margin-bottom: 4rem;
+      margin: 0 auto 4rem;
+      width: 90%;
     }
   }
   .homePartners {
@@ -63,8 +67,8 @@
 }
 @media (min-width: 1025px) {
   .homeCopy-wrap {
-    background-image: url("/images/home/Alyssa_2.png"),
-      url("/images/home/Jordanne_2.png") !important;
+    background-image: url("/images/home/Alyssa_updated.png"),
+      url("/images/home/Jordanne_updated.png") !important;
     background-position: 10% 10%, 90% 90%;
     background-repeat: no-repeat, no-repeat;
   }

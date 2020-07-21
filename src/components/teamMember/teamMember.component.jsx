@@ -1,7 +1,7 @@
 import React from "react";
 import "./teamMember.styles.scss";
 
-const TeamMember = ({ bkg, title }) => {
+const TeamMember = ({ bkg, name, title }) => {
   let memBkg = {
     backgroundImage: `url(./images/home/${bkg})`,
   };
@@ -9,6 +9,9 @@ const TeamMember = ({ bkg, title }) => {
     <div className="col team-member">
       <div className="member-photo" style={memBkg}></div>
       <div className="member-desc">
+        <p className="teamName">
+          <strong>{name}</strong>
+        </p>
         <p>{title}</p>
       </div>
     </div>

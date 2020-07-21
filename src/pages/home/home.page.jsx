@@ -7,7 +7,7 @@ const Home = () => {
       <div className="row homeHero-wrap heros">
         <div className="col homeHero">
           <h2>4 Day Coding Camp</h2>
-          <p>July 27th - July 30th</p>
+          <p>August 10th - August 13th</p>
           <p>Applications Are Open!</p>
           <a
             href="https://httf2020.typeform.com/to/Bmp1dvII"
@@ -21,19 +21,31 @@ const Home = () => {
       <div className="row homeCopy-wrap">
         <div className="col homeCopy">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Exercitationem ad facere necessitatibus atque eligendi corrupti
-            quisquam fugiat neque, delectus, nam earum voluptate odio veniam
-            officiis illo. Saepe nulla sunt libero!
+            We are a pop-up virtual coding camp focused on introducing high
+            school students of color to the world of programming and tech.{" "}
           </p>
+
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ,
-            quasi, error quidem blanditiis reiciendis. Neque, facilis!
+            In this time of COVID 19 and students sitting idle with limited
+            opportunity, we wanted to do something positive. Hack to the Future
+            is a 4 day coding bootcamp. Whether you are into art or video games
+            coding is part of almost every aspect of the world. Our goal is to
+            introduce high school students of color who have little to no
+            programming experience to the field of technology, in a fun
+            interactive way.{" "}
           </p>
+
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque
-            error cum maiores asperiores vero optio exercitationem cupiditate at
-            recusandae eius aspernatur dolore natus, numquam temporibus
+            From August 10th- 13th between 10a - 1p PST/ 1p -4p EST, students
+            will be introduced to the world of coding through project-based
+            learning in small groups. There will also be guest speakers to
+            understand the world of tech and what this new superpower can allow
+            you to do.{" "}
+          </p>
+
+          <p>
+            Applications are now open and close on July 31th. Space is limited.
+            Apply now!
           </p>
         </div>
       </div>

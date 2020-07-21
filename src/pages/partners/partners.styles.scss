@@ -51,19 +51,12 @@
   margin: 40px auto 0px;
   justify-content: space-around;
   .partner {
-    height: 95px;
-    width: 95px;
-    background: gray;
     flex-grow: 0;
-    background: #c4c4c4;
-    border: 1px solid #999999;
-    box-sizing: border-box;
-    box-shadow: 3px 8px 4px rgba(0, 0, 0, 0.64);
-    border-radius: 50%;
     display: flex;
     align-items: center;
     text-align: center;
     font-weight: 600;
+    padding: 0;
   }
 }
 .partnersStatment-wrap {
@@ -77,8 +70,25 @@
     line-height: 3rem;
     p {
       width: 90%;
-      margin: 0 auto;
+      margin: 0 auto 4rem;
     }
+  }
+}
+.partner-copy {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.partners-footer {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  p {
+    font-size: 2.4rem;
+  }
+  a {
+    color: #000;
   }
 }
 @media (min-width: 1025px) {

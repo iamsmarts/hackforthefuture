@@ -1,6 +1,10 @@
 .about {
+  .aboutHero-wrap {
+    height: 100%;
+    margin-bottom: 4rem;
+  }
   .aboutHero {
-    height: 500px;
+    // height: 500px;
     h2 {
       margin: 140px auto 40px;
       font-size: 4.8rem;
@@ -9,23 +13,25 @@
       text-align: center;
     }
     .heroCopy {
-      height: 170px;
+      // height: 170px;
       width: 100%;
       max-width: 600px;
       background-image: url("/images/about/l-bracket.png"),
         url("/images/about/r-bracket.png");
       background-repeat: no-repeat, no-repeat;
       background-position: left top, right top;
+      background-size: contain;
       display: flex;
       align-items: center;
       text-align: center;
       margin: 0 auto;
+      padding: 2rem 0;
     }
   }
   .aboutCtas-wrap {
     justify-content: center;
     max-width: 700px;
-    margin: 0 auto 100px;
+    margin: 0 auto 8rem;
     display: flex;
     justify-content: space-around;
   }
@@ -70,4 +76,32 @@
       margin-bottom: 40px;
     }
   }
+  .copyCont {
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    padding: 15px;
+    width: 90%;
+    p {
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+  }
+  .about-copy-update {
+    max-width: 700px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    padding: 15px;
+    margin: 0 auto 4rem;
+    p {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
 }
+// @media (min-width: 1025px) {
+//   .about .aboutHero-wrap {
+//     max-height: 710px;
+//   }
+// }

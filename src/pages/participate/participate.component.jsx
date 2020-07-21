@@ -13,7 +13,7 @@ const Participate = () => {
             <div className="row heroContent-pillars"></div>
             <div className="row heroContent-title">
               <h2>Apply Today!</h2>
-              <p>Applications Close July 15th</p>
+              <p>Applications Close July 31st</p>
             </div>
             <div className="row heroContent-cta">
               <a
@@ -29,7 +29,7 @@ const Participate = () => {
       </div>
       <div className="row participateContent-timeline">
         <div className="col">
-          <img src="./images/participate/Timeline.png" alt="" />
+          <img src="./images/participate/Timeline-updated.png" alt="" />
         </div>
       </div>
       <div className="row participateRubric-wrap">
@@ -40,8 +40,13 @@ const Participate = () => {
           <div className="rCopy">
             <h3>Just 4 Days</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Laudantium, accusamus sint. Beatae, quos. Laborum, fugit.
+              Are you into gaming, animation, or music? Enter the world of
+              programming the fun and interactive way. Each day you will be
+              building a project in a small group, hearing from guest speakers
+              to help you understand the world of tech, and connecting with
+              other students who may have similar interests. No coding
+              experience? No problem, you are the type of students we want to be
+              part of our program
             </p>
           </div>
         </div>
@@ -53,9 +58,12 @@ const Participate = () => {
           <div className="rCopy">
             <h3>Become Coder By Dinner Time (?)</h3>
             <p>
-              Classes are from <strong>10am to 1pm PST</strong>, so no eed to
-              get out of bed early. Laudantium, accusamus sint. Beatae, quos.
-              Laborum, fugit.
+              Classes are from 10am to 1pm PST, so no need to get out of bed
+              early (unless you are on the east coast, you can still get out of
+              bed late). We want to show you the possibilities of coding and
+              where it can take you. Worse case, it will be a nice break from
+              your COVID routine! Hope you will join us. It’s an opportunity for
+              you to get a head start on your tech journey.
             </p>
           </div>
         </div>
@@ -64,7 +72,8 @@ const Participate = () => {
         <div className="col participateFooter">
           <p>Have Questions?</p>
           <h4>
-            Email us at <a href="mailto:something@something.com">_____@___</a>{" "}
+            Email us at{" "}
+            <a href="mailto:info@hactothefuture.org">info@hactothefuture.org</a>{" "}
           </h4>
         </div>
       </div>
