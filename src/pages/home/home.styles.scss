@@ -19,7 +19,7 @@
       font-family: "Inconsolata", monospace;
       font-weight: 400;
       font-style: normal;
-      margin-top: 40px;
+      margin: 40px auto 20px;
     }
     a {
       width: 140px;
@@ -31,11 +31,16 @@
         #6a9bcc 108.21%
       );
       border-radius: 7px;
-      margin: 0 auto;
+      margin: 3rem auto 0;
       display: block;
       font-size: 1.8rem;
       color: #fff;
       padding: 7px 0px;
+    }
+    p {
+      font-size: 2rem;
+      margin-bottom: 5px;
+      line-height: 2.5rem;
     }
     color: #fff;
   }
@@ -55,6 +60,9 @@
     p {
       margin: 0 auto 4rem;
       width: 90%;
+    }
+    .statement {
+      font-size: 2.2rem;
     }
   }
   .homePartners {

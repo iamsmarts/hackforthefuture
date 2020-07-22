@@ -14,13 +14,13 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Start!
+            Apply Here
           </a>
         </div>
       </div>
       <div className="row homeCopy-wrap">
         <div className="col homeCopy">
-          <p>
+          <p className="statement">
             <strong>
               {" "}
               We are a pop-up virtual coding camp focused on introducing high
@@ -47,8 +47,10 @@ const Home = () => {
           </p>
 
           <p>
-            Applications are now open and close on July 31th. Space is limited.
-            Apply now!
+            <strong>
+              Applications are now open and close on July 31st. Space is
+              limited. Apply now!
+            </strong>
           </p>
         </div>
       </div>
