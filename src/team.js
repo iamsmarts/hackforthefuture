@@ -1,6 +1,6 @@
 const TeamMembers = [
   {
-    photo: "Aarai_Photo.png",
+    photo: "Aarai_Photo_2.png",
     name: "Aarai Myers",
     title: "Curriculum Team",
   },
@@ -15,7 +15,7 @@ const TeamMembers = [
     title: "Chief Cuteness Officer",
   },
   {
-    photo: "Christine_Photo.png",
+    photo: "Chris_Photo.png",
     name: "Chris Berrios",
     title: "Curriculum Team",
   },
@@ -60,7 +60,7 @@ const TeamMembers = [
     title: "Developer",
   },
   {
-    photo: "Steve_Photo.png",
+    photo: "Steve_Photo_2.png",
     name: "Steve Alfaro",
     title: "Partnerships",
   },
