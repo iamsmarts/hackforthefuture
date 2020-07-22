@@ -24,29 +24,31 @@ const Partners = () => {
             collaboration with these organizations and many others
           </p>
         </div>
-        <div className="col partner">
-          <img
-            src="./images/partners/ct-partner-logo.png"
-            alt="Partners Logo"
-          />
-        </div>
-        <div className="col partner">
-          <img
-            src="./images/partners/cs4-philly-partner-logo.png"
-            alt="Partners Logo"
-          />
-        </div>
-        <div className="col partner">
-          <img
-            src="./images/partners/ed-partner-logo.png"
-            alt="Partners Logo"
-          />
-        </div>
-        <div className="col partner">
-          <img
-            src="./images/partners/latinx-partner-logo.png"
-            alt="Partners Logo"
-          />
+        <div className="partners-logos row justify-content-md-center">
+          <div className="col-6 col-md-4 partner">
+            <img
+              src="./images/partners/ct-partner-logo.png"
+              alt="Partners Logo"
+            />
+          </div>
+          <div className="col-6 col-md-4 partner">
+            <img
+              src="./images/partners/cs4-philly-partner-logo.png"
+              alt="Partners Logo"
+            />
+          </div>
+          <div className="col-6 col-md-4 partner">
+            <img
+              src="./images/partners/ed-partner-logo.png"
+              alt="Partners Logo"
+            />
+          </div>
+          <div className="col-6 col-md-4 partner">
+            <img
+              src="./images/partners/latinx-partner-logo.png"
+              alt="Partners Logo"
+            />
+          </div>
         </div>
       </div>
       <div className="row partnersStatment-wrap">
