@@ -71,7 +71,7 @@ const TeamMembers = [
   },
   {
     photo: "Ryan_Photo.png",
-    name: "Ryan Sea,shore",
+    name: "Ryan Seashore",
     title: "Founder",
   },
 ];
