@@ -20,8 +20,10 @@ const Partners = () => {
       <div className="row partnersLogo-wrap">
         <div className="row partner-copy">
           <p>
-            Our program would not be possible without the support and
-            collaboration with these organizations and many others
+            <strong>
+              Our program would not be possible without the support and
+              collaboration with these organizations and many others
+            </strong>
           </p>
         </div>
         <div className="partners-logos row justify-content-md-center">
