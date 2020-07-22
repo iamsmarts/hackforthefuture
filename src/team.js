@@ -57,7 +57,7 @@ const TeamMembers = [
   {
     photo: "Rudy_Photo.png",
     name: "Rudy Quevado",
-    title: "Developer",
+    title: "Front End Engineer",
   },
   {
     photo: "Steve_Photo_2.png",

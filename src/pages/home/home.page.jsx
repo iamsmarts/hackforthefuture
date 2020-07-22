@@ -21,8 +21,11 @@ const Home = () => {
       <div className="row homeCopy-wrap">
         <div className="col homeCopy">
           <p>
-            We are a pop-up virtual coding camp focused on introducing high
-            school students of color to the world of programming and tech.{" "}
+            <strong>
+              {" "}
+              We are a pop-up virtual coding camp focused on introducing high
+              school students of color to the world of programming and tech.{" "}
+            </strong>
           </p>
 
           <p>
