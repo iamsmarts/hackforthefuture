@@ -37,7 +37,11 @@ const About = () => {
       </div>
       <div className="row aboutCtas-wrap">
         <div className="col cta-buttons volunteer">
-          <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://forms.gle/hykEZ6vYKRYsmErn9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Volunteer
           </a>
         </div>
@@ -51,9 +55,7 @@ const About = () => {
           </a>
         </div>
         <div className="col cta-buttons partner">
-          <a href="http://google.com" target="_blank" rel="noopener noreferrer">
-            Partner
-          </a>
+          <a href="mailto:info@hacktothefuture.org">Partner</a>
         </div>
       </div>
       <div className="row aboutTeam-wrap">
