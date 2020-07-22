@@ -73,7 +73,9 @@ const Participate = () => {
           <p>Have Questions?</p>
           <h4>
             Email us at{" "}
-            <a href="mailto:info@hactothefuture.org">info@hactothefuture.org</a>{" "}
+            <a href="mailto:info@hacktothefuture.org">
+              info@hacktothefuture.org
+            </a>{" "}
           </h4>
         </div>
       </div>
