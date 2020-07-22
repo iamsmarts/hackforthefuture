@@ -63,13 +63,15 @@ const Partners = () => {
           </p>
 
           <p>
-            Hack To The Future is a pop-up coding bootcamp, but our team has
-            years of programming and teaching experience. Our volunteers have
-            come together because they all understand the impact tech education
-            and coding has had on their lives and they want to do the same for
-            others. We are on a mission and, together, we can introduce students
-            to the possibilities in tech, and empower the creators of the
-            future!
+            Hack To The Future is a pop-up virtual code camp. For three hours
+            each day over a four day period, students will be introduced to
+            programming, in small groups through project-based learning. Each
+            group will be connected through video and chat. There will also be
+            guest speakers to help students understand the world of technology
+            and what coding can allow them to do. Resources will be provided to
+            students at the end of the program to help them continue on their
+            journey afterward. We are on a mission to introduce students to the
+            possibilities in tech, and empower the creators of the future!
           </p>
         </div>
       </div>

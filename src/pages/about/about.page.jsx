@@ -31,15 +31,6 @@ const About = () => {
                 high school students of color to programming and the world of
                 technology.
               </p>
-              <p>
-                For three hours each day over a four day period, students will
-                be introduced to programming, in small groups through project
-                based learning. Each group will be connected through video and
-                chat. There will also be guest speakers to help students
-                understand the world of technology and what coding can allow
-                them to do. Resources will be provided to students at the end of
-                the program to help them continue on their journey afterwards.
-              </p>
             </div>
           </div>
         </div>
