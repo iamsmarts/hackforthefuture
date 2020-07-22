@@ -1,7 +1,7 @@
 const TeamMembers = [
   {
     photo: "Aarai_Photo.png",
-    name: "Aari Myers",
+    name: "Aarai Myers",
     title: "Curriculum Team",
   },
   {
@@ -20,7 +20,7 @@ const TeamMembers = [
     title: "Curriculum Team",
   },
   {
-    photo: "Alyssa_2.png",
+    photo: "Christine_Photo.png",
     name: "Christine Yen",
     title: "Curriculum Team",
   },
@@ -70,7 +70,7 @@ const TeamMembers = [
     title: "Curriculum / Voluteer Experience Team",
   },
   {
-    photo: "Jordanne_2.png",
+    photo: "Ryan_Photo.png",
     name: "Ryan Sea,shore",
     title: "Founder",
   },
