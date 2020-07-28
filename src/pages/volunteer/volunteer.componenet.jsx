@@ -13,7 +13,7 @@ const Volunteer = () => {
               <h1>Got Skills?</h1>
               <p>Lead the coders of tomorrow into the world of tech today</p>
               <a
-                href="https://httf2020.typeform.com/to/Bmp1dvII"
+                href="https://forms.gle/hykEZ6vYKRYsmErn9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="v-cta"
@@ -48,7 +48,7 @@ const Volunteer = () => {
             1pm-4pm EST each day. If you want to volunteer, complete this short{" "}
             <strong>
               <a
-                href="https://forms.gle/hykEZ6vYKRYsmErn9"
+                href="https://httf2020.typeform.com/to/Bmp1dvII"
                 target="_blank"
                 rel="noopener noreferrer"
               >
