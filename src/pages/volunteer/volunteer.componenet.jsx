@@ -47,8 +47,14 @@ const Volunteer = () => {
             The program will take place from August 10 - 13, 10am-1pm PST /
             1pm-4pm EST each day. If you want to volunteer, complete this short{" "}
             <strong>
-              <a href="https://forms.gle/NTX3qyFnMYif58hq9">survey</a> by July
-              29th.
+              <a
+                href="https://forms.gle/hykEZ6vYKRYsmErn9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                survey
+              </a>{" "}
+              by July 29th.
             </strong>{" "}
             Once completed, we’ll send you some instructions to complete a quick
             training assessment that will help us tailor a volunteer training
